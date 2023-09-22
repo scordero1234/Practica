@@ -4,31 +4,41 @@
  */
 package practica21SeptiembreSingleton;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author s.corderoc
  */
 public class Logger {
-        private static Logger instance;
-        private String texto;
 
+    private static Logger instance;
+    private static List<String> listaTexto;
+
+  
     public Logger() {
     }
-        
-        public static Logger getInstance(){
-         if(instance == null){
+
+    public void addList(String listTexto) {
+        this.listaTexto.add(listTexto);
+    }
+
+    public static Logger getInstance() {
+        if (instance == null) {
+            listaTexto = new ArrayList<>();
             instance = new Logger();
         }
         return instance;
     }
 
-    public String getTexto() {
-        return texto;
+    public List<String> getListTexto() {
+        return listaTexto;
+    }
+    
+      public static void setListaTexto(List<String> aListaTexto) {
+        listaTexto = aListaTexto;
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
-    }
-        
-                
+
 }

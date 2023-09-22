@@ -12,14 +12,12 @@ import java.util.List;
  * @author s.corderoc
  */
 public class AppWeb {
-      public List<String> generarMensaje(String mensaje)
-   {
-      List<String> listaMensList = new ArrayList<>();
-       
-       Logger l= Logger.getInstance();
-       l.setTexto("Una prueba  de logger"+" | "+mensaje);
-       
-       listaMensList.add(l.getTexto());
-       return  listaMensList;
-   }
+
+    public List<String> generarMensaje(String mensaje) {
+
+        Logger l = Logger.getInstance();
+        l.addList("Web " + mensaje);
+        return l.getListTexto();
+
+    }
 }
