@@ -10,5 +10,11 @@ package practica21SeptiembreSingleton;
  */
 public class AppMovil {
    
-   
+   public String generarMensaje(String mensaje)
+   {
+       String smsString="";
+       
+       Logger l= Logger.getInstance();
+       return  smsString;
+   }
 }

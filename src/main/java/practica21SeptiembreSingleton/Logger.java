@@ -21,6 +21,14 @@ public class Logger {
         }
         return instance;
     }
+
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
+    }
         
                 
 }

@@ -8,6 +8,13 @@ package practica21SeptiembreSingleton;
  *
  * @author s.corderoc
  */
-public class RegistroLog {
-    
+public class AppWeb {
+      public String generarMensaje(String mensaje)
+   {
+       String smsString="";
+       
+       Logger l= Logger.getInstance();
+       l.setTexto("Una prueba  de logger"+" | "+mensaje);
+       return  smsString;
+   }
 }
