@@ -13,8 +13,8 @@ public class AppMovil {
    public String generarMensaje(String mensaje)
    {
        String smsString="";
-       
        Logger l= Logger.getInstance();
+       l.setTexto("Una prueba  de logger Movil"+" | "+mensaje);
        return  smsString;
    }
 }

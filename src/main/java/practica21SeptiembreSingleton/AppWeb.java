@@ -4,17 +4,22 @@
  */
 package practica21SeptiembreSingleton;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author s.corderoc
  */
 public class AppWeb {
-      public String generarMensaje(String mensaje)
+      public List<String> generarMensaje(String mensaje)
    {
-       String smsString="";
+      List<String> listaMensList = new ArrayList<>();
        
        Logger l= Logger.getInstance();
        l.setTexto("Una prueba  de logger"+" | "+mensaje);
-       return  smsString;
+       
+       listaMensList.add(l.getTexto());
+       return  listaMensList;
    }
 }

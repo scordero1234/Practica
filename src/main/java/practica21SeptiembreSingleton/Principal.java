@@ -17,5 +17,7 @@ public class Principal {
        serverM.generarMensaje("Problemas de conexion App Movil");
        
         System.err.println(""+ Logger.getInstance().getTexto());
+        
+        
     }
 }
