@@ -14,7 +14,7 @@ public class Principal {
 
     public static void main(String[] args) {
         List<String> mensajesList;
-        var server = new AppWeb();
+        var server = new PortalWeb();
 
         var serverM = new AppMovil();
 

@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author s.corderoc
  */
-public class AppWeb {
+public class PortalWeb {
 
     public List<String> generarMensaje(String mensaje) {
 
