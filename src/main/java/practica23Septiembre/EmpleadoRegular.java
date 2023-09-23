@@ -19,5 +19,10 @@ public class EmpleadoRegular extends  EmpleadoComponent{
     public void mostrarDetalle() {
         System.out.println("El sueldo de un empleado Regular es: "+ this.getSueldo());
     }
+
+    @Override
+    public String toString() {
+        return "EmpleadoRegular{" +getSueldo()+ '}';
+    }
     
 }
