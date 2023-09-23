@@ -10,10 +10,11 @@ package practica23Septiembre.adapter;
  */
 public class EnvioGmailAdapter implements  Mensajeria{
 
+    private EnvioGmail envioGmail= new EnvioGmail();
     @Override
     public String envioCorreo(String origen, String destino, String mensaje) {
     if(!origen.isEmpty() && !destino.isEmpty())
-        return mensaje;
+       return envioGmail.envioCorreo(origen, destino, mensaje);
         return null;
         
     }

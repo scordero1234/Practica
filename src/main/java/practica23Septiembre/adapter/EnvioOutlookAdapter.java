@@ -8,6 +8,13 @@ package practica23Septiembre.adapter;
  *
  * @author s.corderoc
  */
-public class EnvioOutlookAdapter {
-    
+public class EnvioOutlookAdapter implements  Mensajeria{
+     private EnvioOutlookAdapter envio= new EnvioOutlookAdapter();
+    @Override
+    public String envioCorreo(String origen, String destino, String mensaje) {
+    if(!origen.isEmpty() && !destino.isEmpty())
+       return envio.envioCorreo(origen, destino, mensaje);
+        return null;
+        
+    }
 }
