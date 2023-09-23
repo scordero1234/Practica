@@ -25,8 +25,12 @@ public class Gerente extends EmpleadoComponent {
     }
     @Override
     public double getSueldo() {
-        double sueldo=5000;
-        return  sueldo;
+        double sueldoTotal=0;
+       for(var list:this.listaEmpleadoComponent)
+       {
+           sueldoTotal+=list.getSueldo();
+       }
+       return  sueldoTotal;
     }
 
     @Override
@@ -43,6 +47,14 @@ public class Gerente extends EmpleadoComponent {
       {
           lista.mostrarDetalle();
       }
+    }
+
+    public List<EmpleadoComponent> getListaEmpleadoComponent() {
+        return listaEmpleadoComponent;
+    }
+
+    public void setListaEmpleadoComponent(List<EmpleadoComponent> listaEmpleadoComponent) {
+        this.listaEmpleadoComponent = listaEmpleadoComponent;
     }
     
 }

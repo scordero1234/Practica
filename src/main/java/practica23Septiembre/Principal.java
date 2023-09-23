@@ -21,7 +21,18 @@ public class Principal {
         var gerente = new Gerente();
         gerente.add(empleado);
         gerente.add(contratista);
-        
         gerente.mostrarDetalle();
+        
+         var gerente1 = new Gerente();
+         var empleado1= new EmpleadoRegular();
+         
+         gerente1.add(empleado1);
+          gerente1.add(gerente);
+          
+          gerente1.mostrarDetalle();
+       
+          gerente1.getSueldo();
+             System.err.println("total "+gerente1.getListaEmpleadoComponent().size());
+          
     }
 }
