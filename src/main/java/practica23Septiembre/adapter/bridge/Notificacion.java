@@ -9,5 +9,11 @@ package practica23Septiembre.adapter.bridge;
  * @author s.corderoc
  */
 public  abstract class Notificacion {
+
+    private NotificacionImpl notificacionImpl;
+    public Notificacion(NotificacionImpl notificacionImpl) {
+        this.notificacionImpl=notificacionImpl;
+    }
+    
     public abstract void generaNotificacion(String mensaje);
 }

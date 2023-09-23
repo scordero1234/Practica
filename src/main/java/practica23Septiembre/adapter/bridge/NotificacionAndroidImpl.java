@@ -8,12 +8,13 @@ package practica23Septiembre.adapter.bridge;
  *
  * @author s.corderoc
  */
-public class NotificacionIOS implements NotificacionImpl{
+public class NotificacionAndroidImpl implements NotificacionImpl{
 
     @Override
-    public void enviarNotificacion(String mensaje) {
-        if(!mensaje.isEmpty())
-            System.err.println("Notificacion por IOS "+mensaje);
+    public String enviarNotificacion(String mensaje) {
+       if(!mensaje.isEmpty())
+            return "Envio Notificacion Android "+mensaje;
+       return null;
     }
     
 }

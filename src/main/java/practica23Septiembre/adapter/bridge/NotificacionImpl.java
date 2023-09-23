@@ -9,5 +9,5 @@ package practica23Septiembre.adapter.bridge;
  * @author s.corderoc
  */
 public interface NotificacionImpl {
-    public void enviarNotificacion(String mensaje);
+    public String enviarNotificacion(String mensaje);
 }

@@ -8,12 +8,19 @@ package practica23Septiembre.adapter.bridge;
  *
  * @author s.corderoc
  */
-public class NotificacionAndroid implements NotificacionImpl{
+public class NotificacionAudio extends Notificacion{
+ public NotificacionAudio(NotificacionImpl notificacionImpl) {
+        super(notificacionImpl);
+    }
 
     @Override
-    public void enviarNotificacion(String mensaje) {
+    public void generaNotificacion(String mensaje) {
      if(!mensaje.isEmpty())
-            System.err.println("Notificacion por Android "+mensaje);
+            System.err.println("Notificacion por audio "+mensaje);
     }
+    
+   
+    
+
     
 }
