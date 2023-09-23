@@ -11,7 +11,8 @@ package practica23Septiembre.adapter;
 public class Principal {
     public static void main(String[] args) {
          var mensajeria= new Adapter();
-         System.err.println(mensajeria.envioCorreo("scorcar_15@gmail.com", "scorcar_15@gmail.com", "hoal"));
+        
+         System.err.println(mensajeria.envioCorreo("scorcar_15@gmail.com", "destino@gmail.com", "hoal"));
     
     } 
     
