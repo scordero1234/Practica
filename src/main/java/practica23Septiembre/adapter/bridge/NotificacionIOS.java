@@ -8,6 +8,12 @@ package practica23Septiembre.adapter.bridge;
  *
  * @author s.corderoc
  */
-public  abstract class Notificacion {
-    public abstract void generaNotificacion(String mensaje);
+public class NotificacionIOS implements NotificacionImpl{
+
+    @Override
+    public void enviarNotificacion(String mensaje) {
+        if(!mensaje.isEmpty())
+            System.err.println("Notificacion por IOS "+mensaje);
+    }
+    
 }

@@ -8,6 +8,6 @@ package practica23Septiembre.adapter.bridge;
  *
  * @author s.corderoc
  */
-public  abstract class Notificacion {
-    public abstract void generaNotificacion(String mensaje);
+public class Principal {
+    
 }
