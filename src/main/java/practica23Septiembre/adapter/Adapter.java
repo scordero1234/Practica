@@ -11,7 +11,7 @@ package practica23Septiembre.adapter;
 public class Adapter implements Mensajeria {
 
     private EnvioGmail envioGmail = new EnvioGmail();
-    private EnvioOutlookAdapter envioOutlook = new EnvioOutlookAdapter();
+    private EnvioOutlook envioOutlook = new EnvioOutlook();
 
     @Override
     public boolean envioCorreo(String origen, String destino, String mensaje) {
