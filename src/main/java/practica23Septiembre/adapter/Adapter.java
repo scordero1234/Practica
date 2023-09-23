@@ -16,7 +16,7 @@ public class Adapter implements Mensajeria {
     @Override
     public boolean envioCorreo(String origen, String destino, String mensaje) {
 
-        if (envioGmail.envioCorreo(origen, destino, mensaje) && envioOutlook.envioCorreo(origen, destino, mensaje)) {
+        if (envioGmail.envioCorreo(origen, destino, mensaje) || envioOutlook.envioCorreo(origen, destino, mensaje)) {
             return true;
         }
         return false;
