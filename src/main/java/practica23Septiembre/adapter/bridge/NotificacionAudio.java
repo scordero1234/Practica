@@ -11,12 +11,13 @@ package practica23Septiembre.adapter.bridge;
 public class NotificacionAudio extends Notificacion{
  public NotificacionAudio(NotificacionImpl notificacionImpl) {
         super(notificacionImpl);
+        
     }
 
     @Override
     public void generaNotificacion(String mensaje) {
      if(!mensaje.isEmpty())
-            System.err.println("Notificacion por audio "+mensaje);
+            System.err.println("Notificacion por audio ");
     }
     
    
