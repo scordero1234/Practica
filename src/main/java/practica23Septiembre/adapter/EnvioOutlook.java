@@ -15,7 +15,7 @@ public class EnvioOutlook implements Mensajeria{
    private String destino;
 
     @Override
-    public String envioCorreo(String origen, String destino, String mensaje) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public boolean envioCorreo(String origen, String destino, String mensaje) {
+       return true;
     }
 }

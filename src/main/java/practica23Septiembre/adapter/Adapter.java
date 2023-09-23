@@ -8,13 +8,19 @@ package practica23Septiembre.adapter;
  *
  * @author s.corderoc
  */
-public class EnvioOutlookAdapter implements  Mensajeria{
-     private EnvioOutlookAdapter envio= new EnvioOutlookAdapter();
+public class Adapter implements Mensajeria {
+
+    private EnvioGmail envioGmail = new EnvioGmail();
+    private EnvioOutlookAdapter envioOutlook = new EnvioOutlookAdapter();
+
     @Override
     public boolean envioCorreo(String origen, String destino, String mensaje) {
-    if(!origen.isEmpty() && !destino.isEmpty())
-       return envio.envioCorreo(origen, destino, mensaje);
-        return true;
-        
+
+        if (envioGmail.envioCorreo(origen, destino, mensaje) && envioOutlook.envioCorreo(origen, destino, mensaje)) {
+            return true;
+        }
+        return false;
+
     }
+
 }

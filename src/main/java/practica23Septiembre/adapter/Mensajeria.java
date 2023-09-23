@@ -9,5 +9,5 @@ package practica23Septiembre.adapter;
  * @author s.corderoc
  */
 public interface Mensajeria {
-    public String envioCorreo(String origen, String destino,String mensaje);
+    public boolean envioCorreo(String origen, String destino,String mensaje);
 }
