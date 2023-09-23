@@ -14,6 +14,8 @@ public class EnvioGmail implements Mensajeria{
 
     @Override
     public boolean envioCorreo(String origen, String destino, String mensaje) {
-      return true;
+      if(!origen.isEmpty() && !destino.isEmpty())
+        return true;
+      return false;
     }
 }
