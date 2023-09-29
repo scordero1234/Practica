@@ -16,6 +16,6 @@ public class Principal {
        
         
           System.out.println(armadura.mejorar());
-     
+       System.out.println(arma.mejorar());
     }
 }

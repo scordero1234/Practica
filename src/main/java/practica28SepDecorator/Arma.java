@@ -17,6 +17,6 @@ public class Arma extends PersonajeDecorador{
 
     @Override
     public String mejorar() {
-       return  super.mejorar()+"arma";
+       return  super.mejorar()+"Mejorado por el arma";
     }
 }
