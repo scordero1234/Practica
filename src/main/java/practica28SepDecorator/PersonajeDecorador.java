@@ -2,17 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package practica28Septiembre;
+package practica28SepDecorator;
 
 /**
  *
  * @author s.corderoc
  */
-public class Autenticacion {
-    public boolean autenticar(String usuario,String contrasenia)
+public abstract class PersonajeDecorador implements Personaje{
+    protected Personaje personaje;
+    
+    public PersonajeDecorador(Personaje personaje)
     {
-       if(usuario.equals("scordero")&& contrasenia.equals("123")) 
-    return true;
-       return false;
-    }
+        this.personaje=personaje;
+    } 
+    
+
 }
