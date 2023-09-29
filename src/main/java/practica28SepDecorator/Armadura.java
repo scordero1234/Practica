@@ -17,6 +17,6 @@ public class Armadura extends PersonajeDecorador{
 
     @Override
     public String mejorar() {
-        return super.mejorar()+" ha mejorado";
+      return super.mejorar()+"";
     }
 }

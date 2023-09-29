@@ -15,7 +15,7 @@ public class Principal {
         var armadura = new Armadura(personaje);
        
         
-        
+          System.out.println(armadura.mejorar());
      
     }
 }

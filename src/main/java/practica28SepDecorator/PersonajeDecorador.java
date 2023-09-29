@@ -16,5 +16,9 @@ public abstract class PersonajeDecorador implements Personaje{
         this.personaje=personaje;
     } 
     
+     @Override
+    public String mejorar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }

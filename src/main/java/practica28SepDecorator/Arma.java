@@ -17,6 +17,6 @@ public class Arma extends PersonajeDecorador{
 
     @Override
     public String mejorar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       return  super.mejorar()+"arma";
     }
 }
