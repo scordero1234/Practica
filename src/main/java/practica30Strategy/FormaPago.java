@@ -6,7 +6,7 @@ package practica30Strategy;
 
 /**
  *
- * @author Ismael
+ * @author grupo4
  */
 public enum FormaPago {
     TC,EFECTIVO,TRANSFERENCIA

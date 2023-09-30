@@ -8,7 +8,7 @@ import static practica30Strategy.FormaPago.EFECTIVO;
 
 /**
  *
- * @author Ismael
+ * @author grupo4
  */
 public class PagoContext {
     public String ejecutarPago(FormaPago pago){

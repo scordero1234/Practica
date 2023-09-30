@@ -4,11 +4,14 @@
  */
 package practica30Strategy;
 
+import practica30Strategy.FormaPago;
+import practica30Strategy.PagoContext;
+
 /**
  *
- * @author Ismael
+ * @author grupo4
  */
-public class principal {
+public class Principal {
     public static void main(String[] args) {
         var pagoContext = new PagoContext();
         var pagoGeneradoTC = pagoContext.ejecutarPago(FormaPago.TC);        
@@ -17,8 +20,6 @@ public class principal {
         System.out.println(pagoGeneradoEfectivo);
         var pagoGeneradoTansferencia = pagoContext.ejecutarPago(FormaPago.TRANSFERENCIA);
         System.out.println(pagoGeneradoTansferencia);
-        
-        
     }
     
 }
