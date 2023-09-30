@@ -22,11 +22,13 @@ practicaFactory\DispositivoAbstracFactory.class
 practica28Septiembre\ReservaVueloFacade.class
 practicaFactory\AbstractSmartPhone.class
 practicaFactory\CaracterisiticasFactory.class
+practica29SeptiembreTemplateMethod\Producto.class
 practicaFactory\AbstractTablet.class
 practicaFactory\Principal.class
 practicaFactory\SmartPhoneMarca.class
 PracticaBuilder\Reserva.class
 practica15Septiembre\Parqueadero.class
+practica29SeptiembreTemplateMethod\NoPerecedero.class
 practica28SeptiembreDecorator\Personaje.class
 practica16Septiembre\ContratoFactory.class
 practica21Septiembre\Vehiculo.class
@@ -35,6 +37,8 @@ practica28Septiembre\Pago.class
 practica21Septiembre\Principal.class
 com\mycompany\practica\Libro.class
 practicaFactory\MarcaFactory.class
+practica29SeptiembreTemplateMethod\Perecedero.class
+practica29SeptiembreTemplateMethod\Principal.class
 com\mycompany\practica\Propietario.class
 practica16Septiembre\ContratoFactura.class
 practicaFactory\AbstractSmart.class

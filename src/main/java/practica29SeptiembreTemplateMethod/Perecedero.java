@@ -2,25 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package practica28SeptiembreDecorator;
+package practica29SeptiembreTemplateMethod;
 
 /**
  *
  * @author grupo 4
  */
-public class Arma extends PersonajeDecorator{
-    
+public class Perecedero extends Producto {
 
-    public Arma(Personaje personaje) {
-        super(personaje);
-    }
-    
     @Override
-    public String mejorar() {
-        return super.mejorar()+" Personaje mejorado con arma";
+    public String revisaAlmacenamiento() {
+        return " Requiere Refrigeracion";
     }
-    
-    
+
+    @Override
+    public String seleccionaTipoProducto() {
+        return " Carnicos";
+    }
+
+      
     
     
     

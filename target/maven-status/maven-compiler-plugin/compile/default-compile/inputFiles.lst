@@ -1,6 +1,7 @@
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractLaptop.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoTemporal.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioGmail.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Perecedero.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\MarcaFactory.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Autor.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Casa.java
@@ -14,6 +15,7 @@ D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21SeptiembreSing
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioGmailAdapter.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\ReservaVueloFacade.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\Mensajeria.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Principal.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\PersonajeDecorator.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\Principal.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Comercial.java
@@ -51,10 +53,12 @@ D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\R
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioOutlookAdapter.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\Autenticacion.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\NoPerecedero.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Principal.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\SubContratista.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\Principal.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Producto.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractSmartPhone.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionAndroidImpl.java
 D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Propietario.java
