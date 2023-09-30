@@ -1,42 +1,81 @@
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Principal.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Reserva.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\Principal.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\CaracterisiticasFactory.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\TipoContrato.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\PracticaBuilder\Reserva.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\DispositivoAbstracFactory.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Practica.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\MarcaFactory.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Autor.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\TableMarca.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\AbstractLaptop.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\IDatos.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\ContratoFijo.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\Principal.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Comercial.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Parqueadero.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\ContratoFactory.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\SmartPhoneCaracteristica.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\LaptopMarca.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Publicacion.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Propietario.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\ContratoTemporal.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\AbstractSmartPhone.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\PracticaBuilder\AbstracBuilder.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\SmartPhoneMarca.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica21Septiembre\Vehiculo4x4.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica21Septiembre\Principal.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Libro.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\RangoVelocidad.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Residencial.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Edificacion.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica15Septiembre\Casa.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\Contrato.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\ContratoFactura.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica21Septiembre\Vehiculo.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica16Septiembre\ContratoAbstractFactory.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\com\mycompany\practica\Transporte.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\AbstractTablet.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica21Septiembre\VehiculoCamioneta.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practica21Septiembre\VehiculoSuv.java
-D:\MAESTRIA\PATRONES_DISEÑO\PRACTICAS_CLASE\Practica\src\main\java\practicaFactory\AbstractSmart.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractLaptop.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoTemporal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioGmail.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Perecedero.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\MarcaFactory.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Autor.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Casa.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoFactory.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\Adapter.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Residencial.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoFactura.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionVideo.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21SeptiembreSingleton\AppMovil.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioGmailAdapter.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\ReservaVueloFacade.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\Mensajeria.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\PersonajeDecorator.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Comercial.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\EnemigoImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\Personaje.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\RangoVelocidad.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Transporte.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\PracticaBuilder\Reserva.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\Notificacion.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\EmpleadoComponent.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\Gerente.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoFijo.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21SeptiembreSingleton\Logger.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioOutlook.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Edificacion.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\Armadura.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\TipoContrato.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21Septiembre\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\SmartPhoneCaracteristica.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\AliadoImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\PracticaBuilder\AbstracBuilder.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\TableMarca.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Libro.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractTablet.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Practica.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Publicacion.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21SeptiembreSingleton\PortalWeb.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\Disponibilidad.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Parqueadero.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21SeptiembreSingleton\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\ContratoAbstractFactory.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Reserva.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\EnvioOutlookAdapter.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\Autenticacion.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\NoPerecedero.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\SubContratista.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\Principal.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica29SeptiembreTemplateMethod\Producto.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractSmartPhone.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionAndroidImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\com\mycompany\practica\Propietario.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\CaracterisiticasFactory.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\DispositivoAbstracFactory.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\SmartPhoneMarca.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\LaptopMarca.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21Septiembre\Vehiculo4x4.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionAudio.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\adapter\bridge\NotificacionIOSImpl.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21Septiembre\VehiculoCamioneta.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practicaFactory\AbstractSmart.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28SeptiembreDecorator\Arma.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica15Septiembre\IDatos.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica23Septiembre\EmpleadoRegular.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica16Septiembre\Contrato.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21Septiembre\Vehiculo.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica21Septiembre\VehiculoSuv.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\Pago.java
+D:\RunInstall\Workspace Patrones\Practica\src\main\java\practica28Septiembre\Pricipal.java
