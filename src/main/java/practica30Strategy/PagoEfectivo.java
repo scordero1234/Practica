@@ -6,13 +6,13 @@ package practica30Strategy;
 
 /**
  *
- * @author Ismael
+ * @author grupo 4
  */
 public class PagoEfectivo implements PagoStrategy{
 
     @Override
     public String generarComprobante() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return ("Pago realizado de manera correcta con Efectivo");
     }
 
     @Override
