@@ -16,15 +16,15 @@ public class PagoContext {
         switch (pago) {
             case EFECTIVO:
                 var pagoEfectivo = new PagoEfectivo();
-                pagoGenerado = pagoEfectivo.generarComprobante();                
+                pagoGenerado = pagoEfectivo.procesarPago()? pagoEfectivo.generarComprobante():"Pago en Efectivo no realizado";                
                 break;
                 case TC:
                 var pagoTC = new PagoTC();
-                pagoGenerado = pagoTC.generarComprobante();                
+                pagoGenerado = pagoTC.procesarPago()? pagoTC.generarComprobante():"Pago en Tarjete de Credito no realizado";                
                 break;
                 case TRANSFERENCIA:
                 var pagoTransferencia = new PagoTransferencia();
-                pagoGenerado = pagoTransferencia.generarComprobante();                
+                pagoGenerado = pagoTransferencia.procesarPago()? pagoTransferencia.generarComprobante():"Pago en Transferencia no realizado";                
                 break;
             default:
                 pagoGenerado="pago no generado";
