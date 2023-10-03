@@ -6,36 +6,42 @@ package practica30Observer;
 
 /**
  *
+
  * @author s.corderoc
+ *
+
+ * @author Ismael
  */
-public class Envio extends Cliente {
-    
-    private String estadoEnvio;
+public class Envio extends Cliente{
 
-
+    private String mensaje;
     @Override
     public void notificar() {
-        for (var pagoFactura : this.getPagoFacturaList()) {
-            if (pagoFactura instanceof ServicioCliente) {
-                pagoFactura.updatePago(this.facturaPagada);
-            }
+        for(var notificarEnvio : this.getNotificacionEnvioList()){            
+                notificarEnvio.updateEnvio(mensaje);    
+                System.out.println(notificarEnvio.toString());
         }
     }
 
-  
-
     @Override
-    public void attach(PagoFactura pagoFactura) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void suscribirse(NotificacionEnvio notificacionEnvio) {
+        this.getNotificacionEnvioList().add(notificacionEnvio);
+        System.out.println("Suscrito:" + notificacionEnvio.getClass());
     }
 
     @Override
-    public void detach(PagoFactura pagoFactura) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void desuscribirse(NotificacionEnvio notificacionEnvio) {
+       this.getNotificacionEnvioList().remove(notificacionEnvio);
+       System.out.println("Desuscrito:" + notificacionEnvio.getClass());
     }
 
-   
-    
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
     
     
 }

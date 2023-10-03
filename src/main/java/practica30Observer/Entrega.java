@@ -1,29 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/* 
+ * @author Ismael
  */
-package practica30Observer;
+public class Entrega implements NotificacionEnvio{
 
-/**
- *
- * @author s.corderoc
- */
-public class Entrega implements NotifacionEnvio{
-
-    private boolean seguimientoIniciado;
-    
-
-
+    private String estadoEntrega;
     @Override
-    public String toString() {
-        return "ServicioCliente{" + "seguimientoIniciado=" + seguimientoIniciado + '}';
-    }
-
-    @Override
-    public void updateEnvio(boolean estadoEnvio) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void updateEnvio(String mensaje) {
+        this.estadoEntrega = mensaje;
     }
     
-    
-    
+    @Override
+    public String toString(){
+        return "Estado de la Entrega " + estadoEntrega;
+    }
 }

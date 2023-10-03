@@ -9,26 +9,25 @@ import java.util.List;
 
 /**
  *
- * @author s.corderoc
+
+ * @author Ismael
  */
 public abstract class Cliente {
-    private List<PagoFactura> pagoFacturaList = new ArrayList<PagoFactura>();
-    
-    public abstract void attach(PagoFactura pagoFactura);
-    
-    public abstract void detach(PagoFactura pagoFactura);
-    
+    private List<NotificacionEnvio> notificacionEnvioList = new ArrayList<>();
+  
     public abstract void notificar();
-
-
-    public List<PagoFactura> getPagoFacturaList() {
-        return pagoFacturaList;
-    }
-
-    public void setPagoFacturaList(List<PagoFactura> pagoFacturaList) {
-        this.pagoFacturaList = pagoFacturaList;
-    }
     
+    public abstract void suscribirse(NotificacionEnvio notificacionEnvio);
+    
+    public abstract void desuscribirse(NotificacionEnvio notificacionEnvio);
+
+    public List<NotificacionEnvio> getNotificacionEnvioList() {
+        return notificacionEnvioList;
+    }
+
+    public void setNotificacionEnvioList(List<NotificacionEnvio> notificacionEnvioList) {
+        this.notificacionEnvioList = notificacionEnvioList;
+    }
     
     
 }
